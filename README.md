@@ -23,15 +23,17 @@ A **Retrieval-Augmented Generation (RAG)** powered Question-Answering system tha
 git clone https://github.com/yourusername/rag-doc-qna.git
 ```
 cd rag-doc-qna
----
+
 ### 2. Install dependencies
 npm install
----
+
 ### 3. Create .env file
 Create a .env file in the root with the following content:
 OPENAI_API_KEY=your_openai_api_key
+
 QDRANT_API_KEY=your_qdrant_api_key     # Optional if using Qdrant Cloud
+
 QDRANT_URL=http://localhost:6333       # Or your cloud instance
----
+
 ### 4. Run the app
 node src/index.js
