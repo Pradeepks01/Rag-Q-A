@@ -29,8 +29,6 @@ npm install
 
 ### 3. Create .env file
 
-Create a .env file in the root with the following content:
-
 OPENAI_API_KEY=your_openai_api_key
 
 QDRANT_API_KEY=your_qdrant_api_key     
