@@ -20,7 +20,7 @@ A **Retrieval-Augmented Generation (RAG)** powered Question-Answering system tha
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/yourusername/rag-doc-qna.git
+https://github.com/Pradeepks01/Rag-Q-A.git
 ```
 cd rag-doc-qna
 
@@ -28,6 +28,7 @@ cd rag-doc-qna
 npm install
 
 ### 3. Create .env file
+
 Create a .env file in the root with the following content:
 OPENAI_API_KEY=your_openai_api_key
 
