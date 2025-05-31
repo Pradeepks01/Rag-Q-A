@@ -22,18 +22,20 @@ A **Retrieval-Augmented Generation (RAG)** powered Question-Answering system tha
 ```bash
 https://github.com/Pradeepks01/Rag-Q-A.git
 ```
-cd rag-doc-qna
 
 ### 2. Install dependencies
+```shell
 npm install
+```
 
 ### 3. Create .env file
-
+```js
 OPENAI_API_KEY=your_openai_api_key
-
 QDRANT_API_KEY=your_qdrant_api_key     
-
-QDRANT_URL=http://localhost:6333       
+QDRANT_URL=http://localhost:6333
+```       
 
 ### 4. Run the app
+```shell
 node src/index.js
+```
